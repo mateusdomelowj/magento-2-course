@@ -11,6 +11,7 @@ class AddItem
 
     private $config;
 
+    /** * @codeCoverageIgnore */
     public function __construct(ItemFactory $itemFactory, Config $config)
     {
         $this->itemFactory = $itemFactory;

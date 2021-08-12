@@ -16,6 +16,7 @@ class Hello extends \Magento\Framework\View\Element\Template
     private $eventManager;
     private $configLog;
 
+    /** * @codeCoverageIgnore */
     public function __construct(
         Context $context,
         CollectionFactory $collectionFactory,

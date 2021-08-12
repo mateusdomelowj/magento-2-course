@@ -10,6 +10,7 @@ use Psr\Log\LoggerInterface as Logger;
 
 class Collection extends SearchResult
 {
+    /** * @codeCoverageIgnore */
     public function __construct(
         EntityFactory $entituFactory,
         Logger $logger,

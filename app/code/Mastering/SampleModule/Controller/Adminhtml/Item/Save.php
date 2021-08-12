@@ -8,6 +8,7 @@ class Save extends \Magento\Backend\App\Action
 {
     private $itemFactory;
 
+    /** * @codeCoverageIgnore */
     public function __construct(
         \Magento\Backend\App\Action\Context $context,
         ItemFactory $itemFactory

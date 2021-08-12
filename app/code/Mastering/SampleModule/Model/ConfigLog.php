@@ -11,6 +11,7 @@ class ConfigLog
 
     private $config;
 
+    /** * @codeCoverageIgnore */
     public function __construct(ScopeConfigInterface $config)
     {
         $this->config = $config;
