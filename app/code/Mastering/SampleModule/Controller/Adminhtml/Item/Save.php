@@ -3,6 +3,7 @@
 namespace Mastering\SampleModule\Controller\Adminhtml\Item;
 
 use Mastering\SampleModule\Model\ItemFactory;
+use Magento\Backend\App\Action\Context;
 
 class Save extends \Magento\Backend\App\Action
 {
@@ -10,7 +11,7 @@ class Save extends \Magento\Backend\App\Action
 
     /** * @codeCoverageIgnore */
     public function __construct(
-        \Magento\Backend\App\Action\Context $context,
+        Context $context,
         ItemFactory $itemFactory
     ) {
         $this->itemFactory = $itemFactory;
