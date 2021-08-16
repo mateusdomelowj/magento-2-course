@@ -4,7 +4,7 @@ namespace Mastering\SampleModule\Api\Data;
 
 interface ItemInterface
 {
-    /** @return strings */
+    /** @return string */
     public function getName();
 
     /** @return string|null */

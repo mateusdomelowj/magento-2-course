@@ -14,6 +14,8 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
      *
      * @return void
      */
+
+    /** * @codeCoverageIgnore */
     protected function _construct()
     {
         $this->_init(

@@ -3,13 +3,15 @@
 namespace Mastering\SampleModule\Controller\Adminhtml\Item;
 
 use Mastering\SampleModule\Model\ItemFactory;
+use Magento\Backend\App\Action\Context;
 
 class Save extends \Magento\Backend\App\Action
 {
     private $itemFactory;
 
+    /** * @codeCoverageIgnore */
     public function __construct(
-        \Magento\Backend\App\Action\Context $context,
+        Context $context,
         ItemFactory $itemFactory
     ) {
         $this->itemFactory = $itemFactory;
